@@ -1,0 +1,29 @@
+Lab - Calculation Assignment
+
+#div1 {
+
+height: 150px;
+
+width: 400px;
+
+margin: 20px;
+
+border: 1px solid red;
+
+padding: 10px;
+
+}
+
+
+Total height = 20 margin + 1 border + 10 padding + 150 height + 10 padding + 1 border + 20 margin = 212px
+
+Total width = 20 margin + 1 border + 10 padding + 400 width + 10 padding + 1 border + 20 margin = 462px
+
+Browser calculated height = 1 border + 10 padding + 150 height + 10 padding + 1 border = 172px
+
+Browser calculated width = 1 border + 10 padding + 400 width + 10 padding + 1 border = 422px
+
+
+
+
+BoxModelCalculations.txt 
