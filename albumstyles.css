@@ -18,6 +18,12 @@ p2 {
 h3 {
   font: 20px arial, sans-serif;
 }
+
+
+diva {
+background-image: url("http://www.springsteenlyrics.com/lyrics/2002_therising/therising_alb.jpg");
+}
+
 div1 {
 background-image: url("http://www.springsteenlyrics.com/lyrics/2002_therising/therising_alb.jpg");
 &nbsp;
@@ -27,3 +33,5 @@ background-size: 50% ;
 background-position: center;
 
 }
+
+
