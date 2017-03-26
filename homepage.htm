@@ -1,6 +1,23 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<title>Images in HTML</title>
+<title>Restaurant Homepage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+<!-- Optional theme -->
+<link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"/>
+</script> 
+
+
+    
+
+    
+
 <link href="restaurantStyles.css"
   rel="stylesheet"> 
 
@@ -8,14 +25,12 @@
         <h1><b>Charlestown Flying Saucer Pizza Company</b></h1>
     <hr>
 </header>
+<header2 class="container" role="navigation">
 
+
+
+  
 <style>
-a {
-  text-decoration: underline;
-  font-weight: none;
-  color: Blue;
-  background-color: White;
-}
 
 a:link {
   color: Blue;
@@ -34,12 +49,24 @@ a:active {
 background-color: white;
 }
 </style>
-<nav>
+       
+      <ul class="nav nav-pills nav-justified">
+        <li><a href="file:///C:/repos/WebDev/.git/homepage.htm"span class="glyphicon glyphicon-home" class="active" ata-toggle="tab" id = "Home "></a></li>
+        <li><a href="file:///C:/repos/WebDev/.git/menu.htm" data-toggle="tab">Menu</a></li>
+        <li><a href="file:///C:/repos/WebDev/.git/FSPContactUs.htm" data-toggle="tab">Contact Us</a></li> 
+              </ul>
+        <div class="tab-content">
+             <div class="tab-pane fade in active" id="Home">
+             </div>
+             <div class="tab-pane fade" id="Menu">
+             </div>
+             <div class="tab-pane fade"id="Contact Us">  
+             </div>
+      
+    </div>
+  </div>
 
-    <a href="file:///C:/repos/WebDev/.git/homepage.htm">Homepage</a>&nbsp;&nbsp;
-    <a href="file:///C:/repos/WebDev/.git/menu.htm">Menu</a>&nbsp;&nbsp;
-    <a href="file:///C:/repos/WebDev/.git/FSPContactUs.htm">Contact Us</a>
-    </nav>
+</header2>
     <body>
 
     
@@ -50,24 +77,41 @@ background-color: white;
     <div>
        
     <img src="http://images.familyvacationcritic.com/attractions/6286d82d41c30725519abea3303f04e8.jpg"
+    class="img-responsive" 
     style="display: block;
-    margin: 0 auto;width:400px;height: 150px;" />
-    <br/>
-<style>    
- textarea {display: block;  margin: 0 auto; }
- 
-</style>
+    margin: 0 auto;width:400px;height: 150px;"
+     />
+    </div> 
+<div class="container">
+    <div class="row">
 
+    <div class="col-md-12">
+    
 
-    <textarea cols="90" rows="18";> 
+<textarea class=form-control rows="20"> 
      The Charlestown Flying Saucer Pizza Company serves pizza that is out of this world !
      We offer a wide variety of your favorite pizza toppings.
      All of the pizza crust is handmade in our kitchen, and its never frozen !
      We are conviently located at the town square just off Market Street.
     </textarea>
+    </>
+</>
+   
 
 
-    
+<style type="text/css">
+  div { color: blue; background: white; }
+</style>
+<div class="container">
+<div class="jumbotron">
+    <h1 style"coc>New Location Opening Soon ! </h1>
+    <p>We will opening a 2nd store next month.
+       It will located at 200 Market St.
+       Check back for more details soon ! </p>
+  </div>
+
+   
+        
 
 
     <hr>
